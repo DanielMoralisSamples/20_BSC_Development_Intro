@@ -23,7 +23,7 @@ function deactivateControls(){
 async function populate(){
     const balances = await Moralis.Web3API.account.getTokenBalances({chain: chainToQuery}).then(buildTableBalances);
     const nft = await Moralis.Web3API.account.getNFTs({chain: chainToQuery}).then(buildTableNFT);
-    const transtactions = await Moralis.Web3API.native.getTransactions({chain: chainToQuery}).then(buildTableTransactions);
+    const transtactions = await Moralis.Web3API.account.getTransactions({chain: chainToQuery}).then(buildTableTransactions);
 
 }
 
