@@ -1,5 +1,5 @@
-Moralis.initialize("JKmnIp6jgxbPm3b23rBwKFyqR3WzTcQVLsVKFzjp"); //Application ID
-Moralis.serverURL = "https://0qpf67x66rqw.moralisweb3.com:2053/server"; //Server URL 
+Moralis.initialize(""); //Application ID
+Moralis.serverURL = ""; //Server URL 
 
 /* Valid values for chain in https://docs.moralis.io/moralis-server/transactions-and-balances/intro */
 const chainToQuery = 'bsc testnet'
