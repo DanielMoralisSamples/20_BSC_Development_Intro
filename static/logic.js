@@ -1,5 +1,7 @@
-Moralis.initialize(""); //Application ID
-Moralis.serverURL = ""; //Server URL 
+const serverUrl = "https://yqejvfhaozq7.bigmoralis.com:2053/server";
+const appId = "UdD3Sp36c9kFgGFaEit01NS3Z41Hn8Ud3MHO1c3f";
+
+Moralis.start({ serverUrl, appId });
 
 /* Valid values for chain in https://docs.moralis.io/moralis-server/transactions-and-balances/intro */
 const chainToQuery = 'bsc testnet'
